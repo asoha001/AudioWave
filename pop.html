@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pop-page">
+    <div class="navbar">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="hiphop.html">Hip-Hop</a></li>
+                <li><a href="rnb.html">R&B</a></li>
+                <li><a href="rock.html">Rock</a></li>
+                <li><a href="indie.html">Indie</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 style="color: #aaa;">Pop</h1>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Hot Pop Artists</h2>
+        <div class="images-container">
+
+            <div class="artist">
+                <img src="https://charts-static.billboard.com/img/2006/12/taylor-swift-9sy-artistchart-ko8-344x344.jpg" alt="Taylor Swift">
+                <p>Taylor Swift</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qydwbyfzBseOkXvF2to4jax9f5yN6unb5g&s" alt="Sabrina Carpenter">
+                <p>Sabrina Carpenter</p>
+            </div>
+            
+            <div class="artist">
+                <img src="https://i.discogs.com/9-FtP3zxbErLV96lDPZtnHzML-JGhDyKe-rvfEieQjo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc1OTI2/ODktMTY4ODE4NDU4/My0yNDE4LmpwZWc.jpeg" alt="Olivia Rodrigo">
+                <p>Olivia Rodrigo</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://4kwallpapers.com/images/wallpapers/billie-eilish-american-singer-2021-5k-8k-2560x2560-6487.jpg" alt="Billie Eilish">
+                <p>Billie Eilish</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://thesoundofvinyl.com.au/cdn/shop/files/Ariana_Grande_Square.jpg?v=1730775533&width=900" alt="Ariana Grande">
+                <p>Ariana Grande</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section">
+        <h2 class="section-title">Hot Songs</h2>
+        <div class="images-container">
+
+            <div class="release">
+                <img src="https://charts-static.billboard.com/img/2024/06/billie-eilish-lrt-hitmehardandsoft-c1a-180x180.jpg" alt="BIRDS OF A FEATHER">
+                <p>BIRDS OF A FEATHER</p>
+                <p>Billie Eilish</p>
+                <button onclick="window.location.href='pop-songs/birds-of-a-feather.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/eternal-sunshine-artwork-2-65f09a634afeb.jpg" alt="yes, and?">
+                <p>yes, and?</p>
+                <p>Ariana Grande</p>
+                <button onclick="window.location.href='pop-songs/yes-and.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Lady_Gaga_and_Bruno_Mars_-_Die_with_a_Smile.png" alt="Die With A Smile">
+                <p>Die With A Smile</p>
+                <p>Lady Gaga & Bruno Mars</p>
+                <button onclick="window.location.href='pop-songs/die-with-a-smile.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://charts-static.billboard.com/img/2024/06/charli-xcx-cvd-brat-1bt-180x180.jpg" alt="360">
+                <p>360</p>
+                <p>Charli XCX</p>
+                <button onclick="window.location.href='pop-songs/360.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/71/Espresso_-_Sabrina_Carpenter.png" alt="Espresso">
+                <p>Espresso</p>
+                <p>Sabrina Carpenter</p>
+                <button onclick="window.location.href='pop-songs/espresso.html'">Play</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="hiphop.html">Hip-Hop</a></li>
+                <li><a href="rnb.html">R&B</a></li>
+                <li><a href="rock.html">Rock</a></li>
+                <li><a href="indie.html">Indie</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 style="color: #aaa;">Rock</h1>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Hot Rock Artists</h2>
+        <div class="images-container">
+
+            <div class="artist">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzoI_iLPOQTvLM3p61G4PKk-3KJbykMqhOiw&s" alt="Nirvana">
+                <p>Nirvana</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://lastfm.freetls.fastly.net/i/u/avatar170s/9634c23d999a4ee7a14107577156f990" alt="Pink Floyd">
+                <p>Pink Floyd</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://media.mcachicago.org/image/IBI5Z38F/original.jpg" alt="David Bowie">
+                <p>David Bowie</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://cdn-images.dzcdn.net/images/artist/ef23278cf3a67a3ca8404ddaa38699d4/1900x1900-000000-80-0-0.jpg" alt="Fleetwood Mac">
+                <p>Fleetwood Mac</p>
+            </div>
+
+            <div class="artist">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" alt="The Beatles">
+                <p>The Beatles</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Hot Songs</h2>
+        <div class="images-container">
+
+            <div class="release">
+                <img src="https://d.newsweek.com/en/full/879297/43-fleetwood-mac-rumours.jpg?w=1600&h=1600&q=88&f=461f177692e5472b3f85e1b9bcacbe72" alt="Dreams">
+                <p>Dreams</p>
+                <p>Fleetwood Mac</p>
+                <button onclick="window.location.href='rock-songs/dreams.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://i.scdn.co/image/ab67616d0000b273df55e326ed144ab4f5cecf95" alt="Creep">
+                <p>Creep</p>
+                <p>Radiohead</p>
+                <button onclick="window.location.href='rock-songs/creep.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf" alt="Smells Like Teen Spirit">
+                <p>Smells Like Teen Spirit</p>
+                <p>Nirvana</p>
+                <button onclick="window.location.href='rock-songs/smells-like-teen-spirit.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://i.scdn.co/image/ab67616d0000b2731a3903c1aa8122f7720f5d71" alt="Where Is My Mind?">
+                <p>Where Is My Mind?</p>
+                <p>Pixies</p>
+                <button onclick="window.location.href='rock-songs/where-is-my-mind.html'">Play</button>
+            </div>
+
+            <div class="release">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/The_Strokes_-_The_New_Abnormal.png" alt="The Adults Are Talking">
+                <p>The Adults Are Talking</p>
+                <p>The Strokes</p>
+                <button onclick="window.location.href='rock-songs/the-adults-are-talking.html'">Play</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
