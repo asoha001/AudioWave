@@ -47,8 +47,8 @@ const currentTime = audio.currentTime;
 lyrics.forEach((lyric) => {
 const lyricTime = parseFloat(lyric.getAttribute('data-time'));
 if (lyricTime <= currentTime) {
-lyrics.forEach((l) => l.classList.remove('highlight'));
-lyric.classList.add('highlight');
+    lyrics.forEach((l) => l.classList.remove('highlight'));
+    lyric.classList.add('highlight');
 }
 });
 });
