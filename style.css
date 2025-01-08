@@ -276,17 +276,6 @@ body {
   margin-bottom: 20px;
 }
 
-audio {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.audio-container p {
-  margin-top: 20px;
-  font-size: 1.2rem;
-  color: #ccc;
-}
-
 button {
   background-color: #8f8f8f;
   color: white;
@@ -355,6 +344,32 @@ button:hover {
     padding: 10px;
     display: block; 
   }
+}
+audio {
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.lyrics-container {
+  max-width: 600px;
+  margin: 0 auto;
+  /* border: 1px solid #d1dc0c; */
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.lyrics-container p {
+  margin: 5px 0;
+  transition: color 0.3s ease;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.lyrics-container p.highlight {
+  font-size: 2rem; /* Larger size for highlighted lyrics */
+  color: #0b8fee;
+  font-weight: bold;
+  transition: font-size 0.3s ease, color 0.3s ease;
 }
 
 .container {
