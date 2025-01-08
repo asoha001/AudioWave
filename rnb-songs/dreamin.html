@@ -33,26 +33,64 @@
     </div>
 
     <div class="audio-container">
-
-        <h2>Dreamin by PARTYNEXTDOOR</h2>
-
-        <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/200190175&color=%23000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-
-        <div id='rg_embed_link_685002' class='rg_embed_link' data-song-id='685002'>
-            Read <a href='https://genius.com/Partynextdoor-dreamin-lyrics'>“Dreamin” by PARTYNEXTDOOR</a> on Genius
+        <div class="volume-controls">
+            <label for="volumeRange">Volume:</label>
+            <input id="volumeRange" type="range" min="0" max="1" step="0.1" value="0.5">
         </div>
-        <script crossorigin src='//genius.com/songs/685002/embed.js'></script>
+        <h2>Dreamin</h2>
 
-        <p>Enjoy this track!</p>
+        <img class="release" src="https://i.scdn.co/image/ab67616d0000b2737df7878832d569472343b7a7" alt="Dreamin">
+        <audio id="audio-player" controls>
+            <source src="../mp3files/Dreams - 2004 Remaster.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Lyrics -->
+        <div class="lyrics-container">
+            
+            <p data-time="0">Yeah</p>
+            <p data-time="2">Rick James, bitch</p>
+            <p data-time="4">Party like I'm Rick James, bitch</p>
+            <p data-time="7">Ride around, gettin' it</p>
+            <p data-time="10">Blowin' money on my main bitch</p>
+            <p data-time="13">Uh, bumpin' 2 Chainz, bumpin' 2 Chainz (Woo)</p>
+            <p data-time="17">In the Range Rove' (Woo), ain't a damn thing (Ah)</p>
+            <p data-time="21">Ain't a fluke, baby (Uh), ain't a fluke, baby (Uh)</p>
+            <p data-time="25">Cause the hook game got me out the loot (Woo), baby</p>
+            <p data-time="29">And I'm out of here</p>
+            <p data-time="32">Racks on racks, I'm a lot to serve (Serve up)</p>
+            <p data-time="36">So fucked up she gots to stare up</p>
+            <p data-time="39">But she don't hear what she don't wanna hear</p>
+            <p data-time="43">Leanin', exercise, I've been leanin'</p>
+            <p data-time="46">Fifty side of me's dreamin'</p>
+            <p data-time="49">Other of side me schemin'</p>
+            <p data-time="53">Vibe with me, slide with me, get high with me</p>
+            <p data-time="57">Ridin' so clean, all night, I've been</p>
+            <p data-time="61">Vibin', slidin', gettin' high, ridin'</p>
+            <p data-time="65">So clean, all night, I've been, I've been</p>
+            <p data-time="69">I've been waiting for you</p>
+            <p data-time="72">To get high, get high, get high with me, yeah</p>
+            <p data-time="76">Ooh, woah</p>
+            <p data-time="80">I must be dreamin' (Dreamin', oh)</p>
+            <p data-time="84">I must be dreamin' (Dreamin'), oh-woah</p>
+            <p data-time="88">I must be dreamin' (Dreamin'), oh</p>
+            <p data-time="92">I must be dreamin' (Dreamin', oh)</p>
+            <p data-time="96">Get high, get high, get high, get high</p>
+            <p data-time="100">Get high, get high, get high</p>
+            <p data-time="104">I must be dreamin' (When I'm dreamin', oh)</p>
+            <p data-time="108">I must be dreamin' (When I'm dreamin', oh)</p>
+            <p data-time="112">They don't hear me, like</p>
+            <p data-time="115">See my money in</p>
+            <p data-time="118">Y'all mustn't hear me, like</p>
+            <p data-time="121">So I can get inside of you</p>
+            <p data-time="124">They don't hear me, like</p>
+            <p data-time="128">I've already seen inside of you</p>
+            <p data-time="132">Better hear me right, sorry now</p>
+            <p data-time="136">Better hear me twice, sorry now</p>
+            <p data-time="140">I'm dreaming</p>
+
         
-    </div>
+        </div>
 
     <script src="../script.js"></script>
 </body>
