@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIRDS OF A FEATHER</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pop.html">Pop</a></li>
+                <li><a href="../hiphop.html">Hip-Hop</a></li>
+                <li><a href="../rnb.html">R&B</a></li>
+                <li><a href="../rock.html">Rock</a></li>
+                <li><a href="../indie.html">Indie</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-container">
+        <a href="../pop.html" class="back-button">← Back to POP Page</a>
+        <h1 style="color: #aaa;">AudioWave</h1>
+    </div>
+
+    <div class="audio-container">
+        <div class="volume-controls">
+            <label for="volumeRange">Volume:</label>
+            <input id="volumeRange" type="range" min="0" max="1" step="0.1" value="0.5">
+        </div>
+        <h2>BIRDS OF A FEATHER by Billie Eilish</h2>
+
+        <img src="https://charts-static.billboard.com/img/2024/06/billie-eilish-lrt-hitmehardandsoft-c1a-180x180.jpg" alt="Hit Me Hard and Soft">
+
+        <audio id="audio-player" controls>
+            <source src="mp3files/BIRDS OF A FEATHER.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Lyrics -->
+        <div class="lyrics-container">
+            <div class="lyrics-container">
+                <p data-time="0">I want you to stay</p>
+                <p data-time="5">'Til I'm in the grave</p>
+                <p data-time="10">'Til I rot away, dead and buried</p>
+                <p data-time="15">'Til I'm in the casket you carry</p>
+                <p data-time="20">If you go, I'm going too, uh</p>
+                <p data-time="25">'Cause it was always you, alright</p>
+                <p data-time="30">And if I'm turning blue, please don't save me</p>
+                <p data-time="35">Nothing left to lose without my baby</p>
+                <p data-time="40">Birds of a feather, we should stick together, I know</p>
+                <p data-time="45">I said I'd never think I wasn't better alone</p>
+                <p data-time="50">Can't change the weather, might not be forever</p>
+                <p data-time="55">But if it's forever, it's even better</p>
+                <p data-time="60">And I don't know what I'm crying for</p>
+                <p data-time="65">I don't think I could love you more</p>
+                <p data-time="70">It might not be long, but baby, I</p>
+                <p data-time="75">I'll love you 'til the day that I die</p>
+                <p data-time="80">'Til the day that I die</p>
+                <p data-time="85">'Til the light leaves my eyes</p>
+                <p data-time="90">'Til the day that I die</p>
+                <p data-time="95">I want you to see, hm</p>
+                <p data-time="100">How you look to me, hm</p>
+                <p data-time="105">You wouldn't believe if I told ya</p>
+                <p data-time="110">You would keep the compliments I throw ya</p>
+                <p data-time="115">But you're so full of shit, uh</p>
+                <p data-time="120">Tell me it's a bit, oh</p>
+                <p data-time="125">Say you don't see it, your mind's polluted</p>
+                <p data-time="130">Say you wanna quit, don't be stupid</p>
+                <p data-time="135">And I don't know what I'm crying for</p>
+                <p data-time="140">I don't think I could love you more</p>
+                <p data-time="145">Might not be long, but baby, I</p>
+                <p data-time="150">Don't wanna say goodbye</p>
+                <p data-time="155">Birds of a feather, we should stick together, I know</p>
+                <p data-time="160">I said I'd never think I wasn't better alone</p>
+                <p data-time="165">Can't change the weather, might not be forever</p>
+                <p data-time="170">But if it's forever, it's even better</p>
+                <p data-time="175">I knew you in another life</p>
+                <p data-time="180">You had that same look in your eyes</p>
+                <p data-time="185">I love you, don't act so surprised</p>
+              </div>     
+        </div>
+        
+        <p>Enjoy this track!</p>
+        
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
