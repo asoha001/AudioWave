@@ -360,15 +360,11 @@ button:hover {
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 40px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
   color: #fff;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 
@@ -387,7 +383,7 @@ button:hover {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #211f1f;
 }
 
 
@@ -429,7 +425,7 @@ input[type=submit] {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
