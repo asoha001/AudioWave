@@ -294,6 +294,8 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
   margin-top: 10px;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
 }
 
 button:hover {
@@ -327,3 +329,26 @@ button:hover {
   transform: scale(1.05);
 }
 
+/* responsive to be able to be enjoyed on the phone */
+@media (max-width: 768px) {
+  .images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust layout for small screens */
+    gap: 30px; 
+  }
+
+  .artist, .release {
+    width: 100%; 
+  }
+
+  h1 {
+    font-size: 2rem; 
+  }
+
+  button {
+    width: 90%; 
+    font-size: 14px;
+    padding: 10px;
+    display: block; 
+  }
+}
