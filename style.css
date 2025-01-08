@@ -287,7 +287,7 @@ audio {
 }
 
 button {
-  background-color: #23522f;
+  background-color: #8f8f8f;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -302,7 +302,7 @@ button {
 }
 
 button:hover {
-  background-color: #1c3b24;
+  background-color: #b0afaf;
   transform: scale(1.05);
 }
 
