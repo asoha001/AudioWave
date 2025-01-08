@@ -33,26 +33,46 @@
     </div>
 
     <div class="audio-container">
-
-        <h2>Where Is My Mind? by Pixies</h2>
-
-        <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/511252785&color=%23000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-
-        <div id='rg_embed_link_4075' class='rg_embed_link' data-song-id='4075'>
-            Read <a href='https://genius.com/Pixies-where-is-my-mind-lyrics'>“Where Is My Mind?” by Pixies</a> on Genius
+        <div class="volume-controls">
+            <label for="volumeRange">Volume:</label>
+            <input id="volumeRange" type="range" min="0" max="1" step="0.1" value="0.5">
         </div>
-        <script crossorigin src='//genius.com/songs/4075/embed.js'></script>
+        <h2>Where Is My Mind?</h2>
 
-        <p>Enjoy this track!</p>
+        <img class="release" src="https://i.scdn.co/image/ab67616d0000b2731a3903c1aa8122f7720f5d71" alt="Where Is My Mind?">
+        <audio id="audio-player" controls>
+            <source src="../mp3files/Where Is My Mind_ - 2007 Remaster.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Lyrics -->
+        <div class="lyrics-container">
+            
+            <p data-time="0">I've been all over the world (You know)</p>
+            <p data-time="4">But you the finest one</p>
+            <p data-time="8">I done seen the finest dimes</p>
+            <p data-time="12">But all the pretty girls come from VA (That's right)</p>
+            <p data-time="16">Then it's New York and M-I-A</p>
+            <p data-time="20">Then, it's PG and 'round in my way</p>
+            <p data-time="24">So I never had to stay away (Should've never stayed away)</p>
+            <p data-time="28">For long</p>
+            <p data-time="31">Say you're goin' where?</p>
+            <p data-time="34">Ain't nobody goin' if we ain't gon' be there</p>
+            <p data-time="38">Keep her on your arm 'cause she gon' wanna stay</p>
+            <p data-time="42">All the pretty girls wanna be there (That's right)</p>
+            <p data-time="46">Fuck around and find out</p>
+            <p data-time="50">She like one of mine, now she mine now</p>
+            <p data-time="54">You just turn around and she come down (Should've never stayed away)</p>
+            <p data-time="58">For long (For long)</p>
+            <p data-time="62">The best time she's ever had (Yeah)</p>
+            <p data-time="66">The best time she's ever had (Yeah)</p>
+            <p data-time="70">The best time she's ever had (The best time, all the time)</p>
+            <p data-time="74">The best time she's ever had</p>
+            <p data-time="78">The best time she's ever had (Yeah)</p>
+            <p data-time="82">The best time she's ever had (All the time, you know)</p>
+            
         
-    </div>
+        </div>
 
     <script src="../script.js"></script>
 </body>
