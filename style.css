@@ -282,7 +282,7 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -354,7 +354,7 @@ audio {
 .lyrics-container {
   max-width: 600px;
   margin: 0 auto;
-  /* border: 1px solid #d1dc0c; */
+ 
   padding: 10px;
   max-height: 200px;
   overflow-y: auto;
@@ -367,7 +367,7 @@ audio {
 }
 
 .lyrics-container p.highlight {
-  font-size: 2rem; /* Larger size for highlighted lyrics */
+  font-size: 2rem; 
   color: #0b8fee;
   font-weight: bold;
   transition: font-size 0.3s ease, color 0.3s ease;
@@ -434,7 +434,7 @@ audio {
   transform: rotate(45deg);
 }
 
-input[type=submit] {
+button {
   width: 25%;
   background-color:  #cccccca7;
   color: white;
@@ -445,7 +445,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+button:hover {
   background-color:  #ccc;
 }
 

@@ -52,7 +52,3 @@ if (lyricTime <= currentTime) {
 }
 });
 });
-volumeSlider.addEventListener('input', (e) => {
-const volume = e.target.value;
-audio.volume = volume; // Set the audio player's volume
-});
