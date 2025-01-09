@@ -32,26 +32,58 @@
     </div>
 
     <div class="audio-container">
-
-        <h2>Take A Bite by beabadoobee</h2>
-
-        <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1801740492&color=%23000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-
-        <div id='rg_embed_link_10269333' class='rg_embed_link' data-song-id='10269333'>
-            Read <a href='https://genius.com/Beabadoobee-take-a-bite-lyrics'>“Take A Bite” by beabadoobee</a> on Genius
+        <div class="volume-controls">
+            <label for="volumeRange">Volume:</label>
+            <input id="volumeRange" type="range" min="0" max="1" step="0.1" value="0.5">
         </div>
-        <script crossorigin src='//genius.com/songs/10269333/embed.js'></script>
+        <h2>Take a Bite</h2>
 
-        <p>Enjoy this track!</p>
+        <img class="release" src="https://assets.vogue.com/photos/62c5e16903b6d9a4fdd6b839/1:1/w_1332,h_1332,c_limit/20220618_VOGUE_BRENT-FAIYAZ_LOOK_03_090.jpg" alt="Brent Faiyaz">
+        <audio id="audio-player" controls>
+            <source src="../mp3files/Take A Bite.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Lyrics -->
+        <div class="lyrics-container">
+            
+            <p data-time="0">Sure, it's easy to talk</p>
+            <p data-time="5">But I take it and I eat it with a cherry on top</p>
+            <p data-time="10">Indulging in situations that are fabricated imaginations</p>
+            <p data-time="15">Moments that cease to exist</p>
+            <p data-time="20">Only want to fix it with a kiss on the lips</p>
+            <p data-time="25">But I think I might</p>
+            <p data-time="30">Take a bite</p>
+            <p data-time="35">I wanted to see the world in color</p>
+            <p data-time="40">Through your eyes and through your mind</p>
+            <p data-time="45">I think that I like to sit and wonder</p>
+            <p data-time="50">Through the night, I think I might</p>
+            <p data-time="55">Wanna do it all over again</p>
+            <p data-time="60">It gets harder to breathe</p>
+            <p data-time="65">But I take it and I want it and I love when it bleeds</p>
+            <p data-time="70">'Cause I'm craving expectations</p>
+            <p data-time="75">That are unattainable temptations</p>
+            <p data-time="80">I guess I'll just take the hit</p>
+            <p data-time="85">But what's the point of trying if it turns into this?</p>
+            <p data-time="90">'Cause I think I might</p>
+            <p data-time="95">Take a bite</p>
+            <p data-time="100">I wanted to see the world in color</p>
+            <p data-time="105">Through your eyes and through your mind</p>
+            <p data-time="110">I think that I like to sit and wonder</p>
+            <p data-time="115">Through the night, I think I might</p>
+            <p data-time="120">Wanna do it all over again</p>
+            <p data-time="125">Moving backwards (I wanna do it all over again)</p>
+            <p data-time="130">Stuck in reverse (I wanna do it all over again)</p>
+            <p data-time="135">Some things get in the way (I wanna do it)</p>
+            <p data-time="140">I wanted to see the world in color</p>
+            <p data-time="145">Through your eyes and through your mind</p>
+            <p data-time="150">I think that I like to sit and wonder</p>
+            <p data-time="155">Through the night, I think I might</p>
+            <p data-time="160">Wanna do it all over again</p>
+
+            
         
-    </div>
+        </div>
 
     <script src="../script.js"></script>
 </body>

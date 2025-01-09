@@ -32,26 +32,57 @@
     </div>
 
     <div class="audio-container">
-
-        <h2>No One Noticed by The Marias</h2>
-
-        <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1803764514&color=%23000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-
-        <div id='rg_embed_link_8228562' class='rg_embed_link' data-song-id='8228562'>
-            Read <a href='https://genius.com/The-marias-no-one-noticed-lyrics'>“No One Noticed” by The Marías</a> on Genius
+        <div class="volume-controls">
+            <label for="volumeRange">Volume:</label>
+            <input id="volumeRange" type="range" min="0" max="1" step="0.1" value="0.5">
         </div>
-        <script crossorigin src='//genius.com/songs/8228562/embed.js'></script>
+        <h2>No one noticed</h2>
 
-        <p>Enjoy this track!</p>
+        <img class="release" src="https://assets.vogue.com/photos/62c5e16903b6d9a4fdd6b839/1:1/w_1332,h_1332,c_limit/20220618_VOGUE_BRENT-FAIYAZ_LOOK_03_090.jpg" alt="Brent Faiyaz">
+        <audio id="audio-player" controls>
+            <source src="../mp3files/No One Noticed.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Lyrics -->
+        <div class="lyrics-container">
+            
+            <p data-time="0">Maybe I</p>
+            <p data-time="5">Lost my mind</p>
+            <p data-time="10">No one noticed</p>
+            <p data-time="15">No one noticed</p>
+            <p data-time="20">It's getting old (I'd kinda like it if you'd call me)</p>
+            <p data-time="25">All alone ('cause I'm so over bein' lonely)</p>
+            <p data-time="30">May have lost it (I need a virtual connection)</p>
+            <p data-time="35">I have lost it (be my video obsession)</p>
+            <p data-time="40">No one tried</p>
+            <p data-time="45">To read my eyes</p>
+            <p data-time="50">No one but you</p>
+            <p data-time="55">Wish it weren't true</p>
+            <p data-time="60">Maybe I (I'd kinda like it if you'd call me)</p>
+            <p data-time="65">It's not right ('cause I'm so over being lonely)</p>
+            <p data-time="70">Make you mine (I need a virtual connection)</p>
+            <p data-time="75">Take our time (be my video obsession)</p>
+            <p data-time="80">Come on, don't leave me it can't be that easy, babe</p>
+            <p data-time="85">If you believe me I guess I'll get on a plane</p>
+            <p data-time="90">Fly to your city excited to see your face</p>
+            <p data-time="95">Hold me, console me and then I'll leave without a trace</p>
+            <p data-time="100">Come on, don't leave me it can't be that easy, babe</p>
+            <p data-time="105">If you believe me I guess I'll get on a plane</p>
+            <p data-time="110">Fly to your city excited to see your face</p>
+            <p data-time="115">Hold me, console me, then I'll leave without a trace</p>
+            <p data-time="120">Come on, don't leave me it can't be that easy, babe</p>
+            <p data-time="125">If you believe me I guess I'll get on a plane</p>
+            <p data-time="130">Fly to your city excited to see your face</p>
+            <p data-time="135">Hold me, console me and then I'll leave without a trace (maybe I)</p>
+            <p data-time="140">Come on, don't leave me it can't be that easy, babe (it's not right)</p>
+            <p data-time="145">If you believe me I guess I'll get on a plane (make you mine)</p>
+            <p data-time="150">Fly to your city excited to see your face (take our time)</p>
+            <p data-time="155">Hold me, console me and then I'll leave without a trace</p>
+
+            
         
-    </div>
+        </div>
 
     <script src="../script.js"></script>
 </body>
