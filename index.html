@@ -48,35 +48,45 @@
         </div>
 
     <h1>AudioWave</h1>
-    <div class="search-bar">
-        <input type="text" placeholder="Search a genre...">
-        <button id="searchBar">Search</button>
-    </div>
 
-    <script> 
-    document.getElementById("searchBar").addEventListener("click", function () {
-      // Get the input value searchinout
-      const userInput = document.getElementById("userInput").value.trim().toLowerCase();
+    <style>
+       #searchBar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+       }
+    </style>
 
-      // all the music categories and and the links to their html pages
-      const musicCategories = {
-        'rock': "rock.html",
-        'indie': "indie.html",
-        'r&b': "r&b.html",
-        'pop': "pop.html",
-        'hip hop': "hiphop.html",
-      };
+    <form id="searchBar">
+        <input type="text" id="search" placeholder="Search..." />
+        <button id ="submit">Search</button>
+    </form>
+    
+      <script>
+      document.getElementById("searchBar").addEventListener("submit", function (event) {
+          event.preventDefault();
+    
+          const userInput = document.getElementById("search").value.trim().toLowerCase();
 
-      // Checks if the input matches any of the music category
-      if (musicCategories[userInput]) {
-        // leads the user to the corresponding page
-        window.location.href = musicCategories[userInput];
-      } else {
-        // Show an alert if the category is not found
-        alert("Music category not found, please try again:) ");
-      }
-    });
-    </script>
+        // all the music categories
+        const musicCategories = {
+          'pop': "pop.html",
+          'indie': "indie.html",
+          'rock': "rock.html",
+          "r&b": "r&b.html",
+          'hip hop': "hiphop.html"
+        };
+    
+          if (musicCategories.hasOwnProperty(userInput)) {
+            // direcects the user to the categor page
+            window.location.href = musicCategories[userInput];
+          } else {
+            // if the category is found this message shows up
+            alert("Category not found.");
+          }
+        });
+      </script>
+
         
     <div class="section">
         <h2 class = "section-title">This Week's Top Artists</h2>
