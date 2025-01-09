@@ -1,1 +1,2 @@
 # AudioWave
+This is a music website called 'AudioWave'. Users are able to view current popular artists and releases. Users can also search for genres in the search bar or using the sidebar menu. Each genre page highlights the top artists and songs of that genre, and users are given the option to play any of the songs, with lyric display included. There is also a live event link for each genre as well as a voting system, where users can vote on which song is their favourite.
