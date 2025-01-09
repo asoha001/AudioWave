@@ -52,3 +52,8 @@ if (lyricTime <= currentTime) {
 }
 });
 });
+
+//updates audio volume
+volumeSlider.addEventListener('input', () => {
+  audio.volume = volumeSlider.value;
+});
